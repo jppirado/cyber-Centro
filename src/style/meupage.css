@@ -1,0 +1,228 @@
+.header-menu{
+    width: 100vw;
+    height: 12vh;
+    background-image: linear-gradient(to right bottom, #ffa500, #f78700, #ec6700, #e04400, #d20909);
+    
+    
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu{
+    
+    height: 12vh;
+    width: 120px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+.iconAdm{
+    width: 50px;
+}
+.buttonAdm-button{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+}
+
+.user-icon{
+    width:30px;
+}
+.nameUser-menu{
+    font-size: 16px;
+    color: white;
+    font-family: 'Recursive' , sans-serif;
+}
+
+.imagem-do-usuario{
+    width: 50px;
+    border-radius: 50%;
+}
+.iconLogoCyber{
+   margin-left: 90px;
+   width: 300px;
+   height: 13vh;
+}
+
+
+.section-menu{
+    width: 100vw;
+    height: 88vh;
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.sub-box-menu{
+    height: 300px;
+    width: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lista-menu{
+    list-style:none;
+    font-size: 22px;
+}
+
+.section-menu-x{
+    width: 450px;
+    height: 88vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+#Tutorias{
+    list-style: none;
+    font-size: 20px;
+}
+
+ul , li{
+    font-family: 'Oswald', sans-serif;
+}
+
+.button-menu{
+    margin-bottom:2.5em;
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    font-family: 'Recursive' , sans-serif;
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(to right bottom, #ffa500, #f78700, #ec6700, #e04400, #d20909);
+}
+
+.h1-menu{
+    margin-top: 2em;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Recursive' , sans-serif;    
+}
+
+
+/*.header-menu{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    
+
+    height: 12vh;
+    width: 100vw;
+    background-image: linear-gradient(to right bottom, #ffa500, #f78700, #ec6700, #e04400, #d20909);
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.nav-menu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+div .userImg {
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+   
+}
+
+.nameUser-menu{
+    font-size: 20px;
+    margin-left: 5px;
+    color: white;
+    
+}
+
+.iconAdm{
+    width: 50px;
+}
+.logoUser-menu{
+    width: 3em;
+    border-radius: 50%;
+    border: solid 3px white;
+    margin: 10px;
+}
+
+.buttonAdm-button{
+
+    margin-top: 20px;
+    width: 100px;
+    margin-right: 2em;
+    background: white;
+   
+}
+
+.section-menu{
+
+width: 100vw;
+height: calc(100vw - 5em);
+
+
+display: flex;
+flex-direction: row;
+
+}
+
+.section-menu-1 , .section-menu-2 , .section-menu-3{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+
+h1.h1-menu{ 
+
+   margin-top: 1.6em;
+
+}
+
+.lista-menu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    list-style: none;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 24px;
+
+
+    
+    margin-left: 30px;
+}
+
+
+.button-menu{
+    margin-bottom: 2em;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+
+
+*/

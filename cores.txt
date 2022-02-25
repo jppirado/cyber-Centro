@@ -1,0 +1,178 @@
+https://color.adobe.com/pt/explore
+
+
+
+ <header className="header">
+                <nav className="nav">
+                    <img src={icon} id='iconLogo' />
+                    <div id='bar'>
+                        <Link to='/sobre' className='link-home'>Sobre</Link>
+                    </div>
+                </nav>
+                <section className="section">
+                    <div className="box-1">
+                    </div>
+                    <div className="box-2">
+                        <main>
+                            <div>
+                                <img src={marca} className='marca' />
+                            </div>
+                            <div id='loginGoogle'>
+                                <p className='list'>Entre com o Google</p>
+                                <button
+                                    onClick={navigateToMenu}>
+                                    <img src={iconGoogle} />
+                                    <p> oogle </p>
+                                </button>
+                            </div>    
+                        </main>
+                    </div>
+                </section>
+                <div id='bv'>
+                    <h1 className='title-h1'>Bem Vindo ao Telecentro</h1>
+                    <p>O site de serviços online</p>
+                </div>
+            </header>
+
+
+              <div id='body'>
+            <div className='btn-adm'>
+                    <button onClick={navigateToAdmin}>
+                        <img src={iconAdm}/>
+                        Admin
+                    </button>
+                </div>
+                <div id="box-menu">
+                    <h1>
+                    Seja Bem Vindo {user.name}
+                    <img src={user.avatar}/>
+                    </h1>
+                    <div className='display-body'>
+                        <div className='box1'>
+                            <h1>Agendamento</h1>
+                            <label>Agende para atendimentos presenciais</label>
+                            <label>Alguens de nossos serviços</label>
+                            <ul>
+                                <li>Imprimir Conta de luz</li>
+                                <li>Imprimir Conta De telefone</li>
+                                <li>Imprimir CRLV</li>
+                                <li>Imprimir boletos ou outros arquivos</li>
+                                <li>Entre outros</li>
+                                <li>Também é possivel ver seus Agendamentos</li>
+                            </ul>
+                            <div className='button-end'>
+                                <button onClick={navigateToAgendament}>
+                                    Agendar
+                                </button>
+                            </div>
+                        </div>
+                        <div className='box2'>
+                            <h1>Tutoriais</h1>
+                            <label>Caso não queira um atendimento presencial</label>
+                            <label>Disponibilizamos Tutoriais</label>
+                            <div className='button-end'>
+                                <button onClick={navigateToTutorial}>
+                                    Tutoriais
+                                </button> </div>
+                        </div>
+                        <div className='box3'>
+                            <h1>Cursos</h1>
+                            <label>Também Disponibilizamos cursos !</label>
+                            <div className='button-end'>
+                                <button onClick={navigateToCurso}>
+                                    Cursos
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
+
+
+
+
+
+
+
+
+       <div className="box-mark">  
+            <header className='header-mark'>
+                <div className='div-header-mark'>
+                    <img src={logoCyberWhite} className='iconCyber-mark'/>
+                    <div>
+                        <p>{user.name}</p>
+                        <img src={user.avatar} />
+                    </div>
+                </div>
+            </header>    
+                <div className='body-agendament'>
+                        <div className='box-1-mark'>    
+                            <h1>Agende aqui</h1>
+                            <p className='list'>Selecione a data </p>
+
+                            <input type="date" id="day" />
+                            <p className='list'>Selecione a hora</p>
+                            <select id='listTime'>
+                                <option value='0'>8:00</option>
+                                <option value='1'>9:00</option>
+                                <option value='2'>10:00</option>
+                                <option value='3'>11:00</option>
+                                <option value='4'>12:00</option>
+                                <option value='5'>14:00</option>
+                                <option value='6'>15:00</option>
+                                <option value='7'>16:00</option>
+                            </select>
+                            
+                            <Link to='/menu' className='link'>
+                                Voltar para o menu
+                                </Link>
+
+                                <button className="mark-button" 
+                                onClick={teste}>
+                                Confirmar Data
+                                </button>
+                        </div>                           
+                        <div className='box-2-mark'> 
+                            <h1>Consulte seus Agendamentos</h1>
+                            <div className='ul'> 
+
+                                 <ul id='post'>
+                                </ul>
+
+                            </div>   
+
+                            <div className='mm'>
+
+                                <button className="mark-button" 
+                                onClick={list}
+                                >Consultar Agendamentos
+                                </button>
+
+                            </div>
+                        </div>
+                </div>    
+            </div>   
+
+
+
+
+
+             <div className='body-admin'>
+                <div>
+                    <h1 className='adm-title'>Bom dia ! {user.name}</h1>
+                     
+                        <main> 
+                            <div className='list-User'>
+                                <h1 className='adm-h1'>Seus atendimentos do dia</h1>
+                                <div id='display-adm'>
+                                    <ul id='post'>
+                                    </ul>
+                                </div>   
+                            </div>
+                            <div className='add-Curso'>
+                                <button onClick={navigateToAdmTutorial}>goingo to add</button>
+                            </div>   
+                        </main>
+                </div>
+            </div>

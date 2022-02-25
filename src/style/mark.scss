@@ -1,0 +1,173 @@
+.box-mark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height: 100vh;
+    
+   
+    background-image: linear-gradient(to right bottom, #ffa500, #f78700, #ec6700, #e04400, #d20909);
+
+}
+
+.body-agendament {
+
+    width: 70vw;
+    height: 70vh;
+    border-radius: 2em ;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 6px 7px 4px rgba(0,0,0,0.64);
+
+
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+
+
+
+.box-1-mark{
+
+    width: 50%;
+
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    input[type="date"]{
+        
+        padding: 15px;
+        top: 50%;
+        left: 50%;
+        color: #ffffff;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+   }
+
+    ::-webkit-calendar-picker-indicator{
+        background-color: #ffffff;
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    border-right: dashed rgb(92, 92, 92)  3px;
+
+    h1{
+        display: flex;
+        height: 100px;
+        align-items: flex-start;
+        font-size: 36px;
+        font-family: 'Recursive' , sans-serif;
+        color:rgb(128, 125, 125);
+        
+    }
+}
+
+.box-2-mark{
+
+
+    width: 50%;
+    
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    h1{
+        display: flex;
+        height: 100px;
+        align-items: flex-start;
+        font-size: 36px;
+        font-family: 'Recursive' , sans-serif;
+        color:rgb(128, 125, 125);
+        
+    }
+    
+    .ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 300px;
+        height: 225px;
+
+
+        font-size: 20px;
+      
+    }
+
+    
+
+
+}
+
+
+
+
+input , select{
+
+    border: 0;
+
+    width: 300px;
+    height: 50px;
+
+   
+    border: outset  3px gray;
+    border-top: outset 0.01px gray;
+    border-left: outset  0.01px gray ;
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+
+
+    text-align: center;
+    
+}
+
+
+.link{
+    margin-top: -20px;
+    margin-right: -166px;
+    margin-bottom: 20px;
+
+    
+    color: black;
+
+
+    
+}
+
+.list{
+
+    opacity: 70%;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+    &::before {
+        content: '';
+        flex: 1;
+        height: 1px;
+        background-color: grey;
+        
+        
+    }
+
+    &::after {
+        content: '';
+        flex: 1;
+        height: 1px;
+        background-color: grey;
+    }
+   
+}
